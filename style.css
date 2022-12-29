@@ -1,0 +1,363 @@
+body, header, main, footer, div, h1, h2, h3, p, a, li, ul, ol, img{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+background-image: url(imagens/background.jpg);
+background-size: 100%;
+}
+header{}
+header div .cabeçalho{
+    max-width: 320px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    background-color: rgb(94, 95, 94);
+    
+    padding: 10px, 10px, 10px, 10px;
+    margin-top: 10px;
+    border-bottom: 3px solid yellow;
+}
+header .linha{
+    
+    align-items: flex-start;
+    margin: 0 auto;
+    
+}
+header .cabeçalho .lado_esquerdo{
+    height: 150px;
+    padding: 10px;
+}
+header .cabeçalho .lado_esquerdo img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+}
+header .cabeçalho .centro{
+    margin: 0 auto;
+    margin-left: 16px;
+}
+header .cabeçalho .centro .p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(5, 214, 22);
+    
+}
+header .cabeçalho .centro .p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+    padding: 0;
+    margin-left: -7px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    color: yellow;
+}
+header .cabeçalho .centro .p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(5, 214, 22);
+}
+header .cabeçalho .lado_direito{
+    padding: 10px;
+}
+header .cabeçalho .lado_direito img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+}
+main .corpo{
+    max-width: 320px;
+    margin: 0 auto;
+    background-color: rgb(206, 252, 252);
+    border-bottom: 3px solid yellow;
+    
+}
+main .corpo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: rgb(243, 42, 7);
+    font-size: 1.5rem;
+    padding-top: 30px;
+    margin-left: 10px;
+    
+}
+main .corpo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    line-height: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: rgb(15, 30, 235);
+    
+}
+main ul {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left:30px;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+.listas{
+    
+}
+main .lista_esquerda{
+    max-width: 80%;
+    margin-left: 30px;
+}
+}
+main .lista_direita{
+    max-width: 80%;
+    margin-left: 30px;
+}
+main .corpo h4{
+    width: 72%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 2rem;
+    color: rgb(99, 15, 235);
+    text-align: center;
+    border: 2px solid red;
+    margin-left: 30px;
+    background-color: rgb(78, 255, 61);
+    margin-bottom: 0;
+}
+main span{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    color: rgb(6 6 6);
+    margin-left: 27px;
+}
+.site{
+    padding-top: 14px;
+    padding-bottom: 20px;
+}
+main a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+footer .rodape{
+    max-width: 320px;
+    margin: 0 auto;
+    background-color: rgb(150, 155, 155);
+    
+}
+footer .redes p{
+    padding-top: 10px;
+    font-size: 1.3rem;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+footer .rodape .instagram{
+    width: 40px;
+    margin-left: 110px;
+    padding-top: 20px;
+}
+.redes{
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.facebook{
+    margin-left: 20px;
+    width: 43px;
+}
+.direitos{
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgb(138, 243, 143);
+}
+
+@media only screen and (min-width: 450px){
+
+body, header, main, footer, div, h1, h2, h3, p, a, li, ul, ol, img{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+background-image: url(imagens/background.jpg);
+background-size: 100%;
+}
+header{}
+header div .cabeçalho{
+    max-width: 930px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    background-color: rgb(94, 95, 94);
+    height: 170px;
+    padding: 10px, 10px, 10px, 10px;
+    margin-top: 10px;
+}
+header .linha{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    height: 170px;
+}
+header .cabeçalho .lado_esquerdo{
+    height: 150px;
+    padding: 10px;
+}
+header .cabeçalho .lado_esquerdo img{
+    width: 150px;
+    height: 150px;
+}
+header .cabeçalho .centro{
+    margin: 15px 100px;
+}
+header .cabeçalho .centro .p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(5, 214, 22);
+}
+header .cabeçalho .centro .p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+    padding: 0;
+    margin-left: -7px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    color: yellow;
+}
+header .cabeçalho .centro .p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(5, 214, 22);
+}
+header .cabeçalho .lado_direito{
+    padding: 10px;
+}
+header .cabeçalho .lado_direito img{
+    width: 150px;
+    height: 150px;
+}
+main .corpo{
+    max-width: 930px;
+    margin: 0 auto;
+    background-color: rgb(206, 252, 252);
+    
+}
+main .corpo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: rgb(243, 42, 7);
+    font-size: 2rem;
+    padding-top: 30px;
+    margin-left: 10px;
+    
+}
+main .corpo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    line-height: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: rgb(15, 30, 235);
+    
+}
+main ul {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left:30px;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+.listas{
+    display: flex;
+}
+main .lista_esquerda{
+    max-width: 50%;
+    margin-left: 50px;
+}
+main .lista_direita{
+    max-width: 60%;
+    margin-left: 45px;
+}
+main .corpo h4{
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 2rem;
+    color: rgb(99, 15, 235);
+    text-align: center;
+    border: 2px solid red;
+    margin-left: 266px;
+    background-color: rgb(78, 255, 61);
+  margin-bottom: 0;
+}
+main span{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    color: rgb(6 6 6);
+    margin-left: 335px;
+}
+.site{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+main a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+footer .rodape{
+    max-width: 930px;
+    margin: 0 auto;
+    background-color: rgb(150, 155, 155);
+    
+}
+footer .redes p{
+    padding-top: 10px;
+    font-size: 1.3rem;
+    margin-left: 305px;
+    margin-right: 20px;
+}
+footer .rodape .instagram{
+    width: 40px;
+    margin-left: 5px;
+    padding-top: 2px;
+}
+.redes{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.facebook{
+    margin-left: 20px;
+    width: 43px;
+}
+.direitos{
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgb(138, 243, 143);
+}
+}
